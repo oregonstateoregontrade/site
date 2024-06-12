@@ -1,0 +1,39 @@
+body {
+  background: #111;
+  font-family: sans-serif;
+}
+
+#center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+h1 {
+  background: url('https://i.imgur.com/1R57Hlq.gif');
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.ascii-art {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 16px;
+  background: url('https://i.imgur.com/1R57Hlq.gif');
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.rainbow-link {
+  font-family: monospace;
+  font-size: 16px;
+  background: url('https://i.imgur.com/1R57Hlq.gif');
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
